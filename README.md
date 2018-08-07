@@ -37,7 +37,7 @@ storage.values
 | params  | type          | required | default               | options                          |
 | ------- | ------------- | -------- | --------------------- | -------------------------------- |
 | storage | string        | true     |                       | 'localStorage'、'sessionStorage' |
-| prefix  | string        | true     |                       |                                  |
+| namespace  | string        | true     |                       |                                  |
 | expires | number        | false    | 1000 * 3600 * 24 * 30 |                                  |
 | version | number/string | false    | 1                     |                                  |
 
