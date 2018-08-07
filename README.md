@@ -13,7 +13,7 @@ npm install steerableStorage --save
 ## Usage 
 
 ```js
-import SteerableStorage from 'steerableStorage'
+import SteerableStorage from 'steerable-storage'
 
 const storage = new SteerableStorage('localStorage', 'projectName')
 
